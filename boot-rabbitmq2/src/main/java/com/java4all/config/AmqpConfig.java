@@ -15,6 +15,8 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class AmqpConfig {
 
+    //add:ceshi dev-01
+
     public static final String FOO_EXCHANGE   = "callback.exchange.foo";
     public static final String FOO_ROUTINGKEY = "callback.routingkey.foo";
     public static final String FOO_QUEUE      = "callback.queue.foo";
