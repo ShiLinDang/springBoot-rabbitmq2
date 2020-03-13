@@ -30,6 +30,8 @@ public class AmqpConfig {
     @Value("${spring.rabbitmq.publisher-confirms}")
     private boolean publisherConfirms;
 
+    //add test3 from master
+
     @Bean
     public ConnectionFactory connectionFactory() {
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
