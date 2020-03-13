@@ -16,6 +16,8 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class AmqpConfig {
 
+    //add:ceshi dev-01
+
     public static final String FOO_EXCHANGE   = "callback.exchange.foo";
     public static final String FOO_ROUTINGKEY = "callback.routingkey.foo";
     public static final String FOO_QUEUE      = "callback.queue.foo";
@@ -30,6 +32,8 @@ public class AmqpConfig {
     private String virtualHost;
     @Value("${spring.rabbitmq.publisher-confirms}")
     private boolean publisherConfirms;
+
+    //add test3 from master
 
     @Bean
     public ConnectionFactory connectionFactory() {
