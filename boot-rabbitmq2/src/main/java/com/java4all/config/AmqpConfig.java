@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Scope;
 
 /**
  * @author dangshiling
+ * @date 2020-03-13
  */
 @Configuration
 public class AmqpConfig {
